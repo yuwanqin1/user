@@ -26,4 +26,5 @@ yarn run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+请参阅[配置参考] （https://cli.vuejs.org/config/）。
+echo'node_mocules'>> .gitignore不提交''node_mocules文件
