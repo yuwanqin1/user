@@ -12,7 +12,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 export default class Index extends Vue {
   @Prop() private msg!: string;
   async axiosClick() {
-    const res = await axios.get("/api/movie/in_theaters");
+    const res = await axios.get("/api/movie/in_theaters", { params: { count: 100, start: 0, total: 1 } });
     console.log(res.data);
   }
 }
