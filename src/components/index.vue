@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-    <el-button type="info" @click="axiosClick">获取数据</el-button>
+    <el-button type="info" @click="axiosClick">获取豆瓣网数据</el-button>
   </div>
 </template>
 
