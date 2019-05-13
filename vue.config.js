@@ -1,4 +1,6 @@
 const apiServer = 'http://api.douban.com/v2/'
+// https://api.apiopen.top/searchMusic
+const musicServer = 'http://api.apiopen.top'
 
 module.exports = {
     devServer: {
@@ -9,6 +11,13 @@ module.exports = {
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api': ''
+                }
+            },
+            '/music': {
+                target:  musicServer,
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/music': ''
                 }
             }
         }

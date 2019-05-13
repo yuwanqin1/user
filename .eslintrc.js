@@ -43,6 +43,12 @@ module.exports = {
     "default-case": 2,//switch语句最后必须有default
     "object-curly-spacing": [0, "never"],//大括号内是否允许不必要的空格
     "quotes": [2, "single"],//引号类型 `` "" ''
+    "no-console": "off",//可以使用console
+    // 要求或禁止使用分号而不是 ASI（这个才是控制行尾部分号的，）
+    "semi": [2, "always"],
+    // 强制分号之前和之后使用一致的空格
+    "semi-spacing": 0,
+    // 要求同一个声明块中的
   },
   parserOptions: {
     parser: "@typescript-eslint/parser"
