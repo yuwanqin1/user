@@ -3,7 +3,7 @@
     <el-button type="info" @click="axiosClick('1')">获取豆瓣网数据</el-button>
     <el-button type="info" @click="axiosClick('2')">获取音乐</el-button>
     <el-button type="info" @click="axiosClick('3')">获取音乐排行榜</el-button>
-    <el-button type="info" @click="axiosClick('4')">获取音乐排行榜</el-button>
+    <el-button type="info" @click="axiosClick('4')">获取音乐排行榜  </el-button>
   </div>
 </template>
 
